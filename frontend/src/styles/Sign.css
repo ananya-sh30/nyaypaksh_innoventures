@@ -1,0 +1,115 @@
+.signPage{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.signup-container {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+    padding: 2rem; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    min-height: 400px; /* Reduced overall height */
+}
+
+/* Title */
+.signup-container h1 {
+    margin-bottom: 1.5rem; /* Reduced margin */
+    color: #333;
+    font-size: 1.6rem; /* Reduced font size */
+}
+
+/* Input group */
+.input-group {
+    margin-bottom: 1rem; /* Reduced spacing between fields */
+    text-align: left;
+}
+
+.signup-container label {
+    font-size: 0.9rem; /* Reduced font size */
+    margin-bottom: 0.4rem; /* Reduced margin */
+    display: block;
+    color: #555;
+}
+
+.signup-container input {
+    width: 100%;
+    padding: 0.6rem; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Slightly reduced radius */
+    font-size: 0.9rem; /* Reduced font size */
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    max-width: 150px; /* Slightly smaller button */
+    padding: 10px 14px; /* Reduced padding */
+    background: rgb(200, 217, 230);
+    background: linear-gradient(180deg, rgba(200, 217, 230, 1) 29%, rgba(205, 205, 205, 1) 88%);
+    color: rgb(44, 44, 44);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px auto; /* Reduced margin */
+    display: block;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 0.9rem; /* Reduced font size */
+}
+
+.btn:hover {
+    background-color: #b0c4de;
+    transform: scale(1.05);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .signup-container {
+        width: 90%; /* Keep it flexible for smaller screens */
+        padding: 1.8rem; /* Reduced padding */
+        min-height: 380px; /* Reduced height for tablets */
+    }
+    .btn {
+        max-width: 130px; /* Smaller button for tablets */
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-container {
+        padding: 1.5rem;
+        min-height: 350px; /* Further reduced height for small screens */
+    }
+    .btn {
+        max-width: 120px;
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Login link */
+.login-link {
+    margin-top: 0.8rem; /* Reduced margin */
+    font-size: 0.9rem; /* Slightly smaller font */
+    color: #666;
+}
+
+.login-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

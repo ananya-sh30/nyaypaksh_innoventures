@@ -1,0 +1,207 @@
+.sort-options div {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 80px;
+    font-size: 12px;
+    margin: 5px;
+    margin-left: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+.sort-options div:hover{
+  border: 1px solid grey;
+} 
+.search-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+    padding-left: 20px;
+    align-items: center;
+    transition: border-bottom 0.3s ease;
+}
+.search-icon {
+    margin-right: 15px;
+}
+.sort-options div.selected {
+    background-color: #333;   
+    color: white;               
+}
+ 
+.search-form {
+    background-color: white;
+    padding: 2px 0px 10px 0px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: rgb(86, 124, 141);
+    background: linear-gradient(0deg, rgba(86, 124, 141, 1) 0%, rgba(74, 90, 97, 1) 30%, rgba(47, 65, 86, 1) 81%);
+    margin: 20px 180px;
+    border-radius: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 350px;
+  }
+  
+  .search-form input[type="text"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(224, 224, 224);
+    font-weight: 300;
+  }
+  input[type="text"]::placeholder {
+    color: #f4f4f4;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+  }
+  input[type="text"]:focus::placeholder {
+    opacity: 0; 
+  }
+  .search-container:focus-within {
+    border-bottom: 2px solid white;
+  }
+  .slider-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    color: rgb(242, 242, 242);
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .slider-container p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 400px;
+    height: 5px;
+    background: rgb(219, 219, 219);
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    background: #ececec;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.2s ease, border 0.1s ease;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background: #ececec;
+    border: 2px solid;
+    border-color: #696969;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #808080;
+    border-radius: 50%;
+    border: 2px solid #555;
+    cursor: pointer;
+    transition: background 0.3s ease, border 0.3s ease;
+  }
+  
+  input[type="range"]::-moz-range-thumb:hover {
+    background: #868686;
+    border-color: #333;
+  }
+.sort-options {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+  .filterHead{
+    font-weight: 300;
+    color: white;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .sort-options label {
+    color: white;     
+  }
+  
+  .submitBtn button[type="submit"] {
+    background: rgb(200, 217, 230);
+    background: linear-gradient(180deg, rgba(200, 217, 230, 1) 29%, rgba(205, 205, 205, 1) 88%);
+    color: rgb(44, 44, 44);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 10px;
+    margin-right: 35px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .submitBtn button[type="submit"]:hover {
+    background-color: #005f87;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .filters {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .filters input[type="range"] {
+      width: 100%;
+    }
+  }
+  .caseType {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: rgb(242, 242, 242);
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.caseType select {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-left: 20px;
+    background-color: rgb(230, 230, 230);
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    height: 20px;
+    color: #515151;
+    outline: none;
+}
+.caseType option{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+
+
+
+  

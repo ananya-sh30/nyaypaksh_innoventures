@@ -1,0 +1,22 @@
+.engine {
+    background-color: rgb(254, 252, 251); /* Light background color for the engine */
+    padding: 20px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.engine h1 {
+    color: #2F2F2F;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.subhead{
+  color: #1f1f1f;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 3px;
+}

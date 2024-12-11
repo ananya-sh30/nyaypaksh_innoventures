@@ -1,0 +1,103 @@
+/* Container for the entire Judicial Trends section */
+.judicial-trends-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title for Judicial Trends */
+  .judicial-trends-container h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+
+  .case-details-container {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table styling */
+  .case-details-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .case-details-container th,
+  .case-details-container td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .case-details-container th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .case-details-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .case-details-container tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Loading text styling */
+  .loading-text {
+    font-size: 18px;
+    color: #888;
+    font-style: italic;
+    text-align: center;
+  }
+
+  
+  /* Make chart responsive */
+  .chart-container canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .chart-container-case canvas{
+    width: 100% !important;
+    height: 350px !important;
+  }
+  /* Loading state styles */
+  .chart-container p {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+  }
+  
+  /* Chart title */
+  .chart-container-case .chart-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .judicialTrend{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin: 0px;
+    width:90%;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    margin-top: 30px;
+  }
+  

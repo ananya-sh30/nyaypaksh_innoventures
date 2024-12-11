@@ -1,0 +1,95 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(254, 252, 251);
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .logo img{
+    width: 120px;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .featuresNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+    
+  }
+  .nav-links li {
+    cursor: pointer;
+  }
+  .custom-link {
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+
+  }
+  .custom-link:hover {
+    text-decoration: underline;
+    color: rgb(26, 26, 26); 
+  }
+  .language-select  {
+    padding: 6px;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fefcfb;
+  
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; 
+    }
+  
+    .language-switcher {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  }
+  .bxs-user-circle{
+    font-size: 25px;
+  }
+  .name{
+    display: flex;
+    align-items: center;
+  }
+  .signup-button{
+    padding: 6px 12px 6px 12px;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #212121;
+    color: #fefcfb;
+    cursor: pointer;
+  }

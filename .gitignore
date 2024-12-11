@@ -1,0 +1,8 @@
+# .gitignore file
+.env         # Ignore environment files
+node_modules/  # Node.js dependencies
+venv/          # Python virtual environment
+flask/env/
+flask/venv/
+backend/node_modules/
+frontend/node_modules/

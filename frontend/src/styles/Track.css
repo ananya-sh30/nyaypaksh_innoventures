@@ -1,0 +1,125 @@
+
+.tracker {
+    height:100vh;
+    border-radius: 8px;
+
+  }
+  
+  .tracker h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 0%;
+  }
+  
+  .tracker .summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .tracker .summary-box {
+    background-color: white;
+    color: #2a445e;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    flex: 1;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .tracker .summary-box{
+    font-size: 18px;
+  }
+  .tracker .summary-box span {
+    display: block;
+    font-size: 2.8rem;
+    margin-top: 5px;
+  }
+  
+  .tracker .case-details {
+    background-color: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .tracker .case-details h3 {
+    color: #204569;
+    font-size: 25px;
+    font-weight: 400;
+  }
+  
+  .tracker table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tracker table th,
+  .tracker table td {
+    text-align: left;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid rgb(187, 187, 187);
+  }
+  
+  .tracker table th {
+    background: rgb(54,54,54);
+    background: linear-gradient(355deg, rgba(54,54,54,1) 29%, rgba(30,30,30,1) 86%);
+    color: white;
+  }
+  
+  .tracker table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tracker table tr:hover {
+    background-color: #ddd;
+  }
+  
+
+  .tracker button {
+    background-color: #19191a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tracker button:hover {
+    background-color: #212121;
+    color: #ddd;
+  }
+  .tracker-head{
+    background: linear-gradient(
+      to right,
+      #628b9d,
+      #2f4156
+    ); 
+    color: white;
+    height:200px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .add-case-section form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .add-case-section form label{
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .add-case-section form input{
+    border: 2px solid rgb(101, 101, 101);
+    padding:8px;
+    border-radius: 3px;
+    margin-top: 5px;
+    width: 170px;
+  }
+  .add-case-section form button{
+    width: 130px;
+    padding: 0%;
+  }
